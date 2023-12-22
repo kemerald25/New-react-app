@@ -11,7 +11,10 @@
 // )
 // ReactDOM.render(app, document.getElementById("root"))
 
-function allApp () {
+
+// Use pascal case instad of carmel case for naming react functions
+
+function AllApp () {
     return(
         <div>
         <h1>My Awesome React App</h1>
@@ -25,4 +28,4 @@ function allApp () {
     )
 }
 
-ReactDOM.render(allApp(), document.getElementById("root"))
+ReactDOM.render(<AllApp />, document.getElementById("root"))
