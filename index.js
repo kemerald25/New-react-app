@@ -13,42 +13,10 @@
 
 
 // Use pascal case instad of carmel case for naming react functions
-// import Header from './header'
+import Header from './Header'
+import Footer from './Footer'
+import MainContent from './MainContent'
 
-
-function Header() {
-    return(
-        <header>
-            <nav>
-                <h3>Dev Royale</h3>
-                <ul>
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </header>
-    )
-}
-
-function Footer() {
-    return (
-        <small>@ 2023 Dev Royale All Right Reserved</small>
-    )
-}
-
-function MainContent() {
-    return(
-        <div>
-            <h3>Why choose React</h3>
-                <ol>
-                    <li>It is fun to work with</li>
-                    <li>Its makes work easier</li>
-                    <li>Coding feels alive</li>
-                </ol>
-        </div>
-    )
-}
 
 function AllApp() {
     return (
