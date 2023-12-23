@@ -16,10 +16,12 @@
 
 function AllApp() {
     return (
-        <header>
-            <nav>
-                <h3>Dev Royale</h3>
-            </nav>
+        <div>
+            <header>
+                <nav>
+                    <h3>Dev Royale</h3>
+                </nav>
+            </header>
             <div>
                 <h3>Why choose React</h3>
                 <ol>
@@ -29,7 +31,7 @@ function AllApp() {
                 </ol>
             </div>
             <footer><p>@ 2023 Dev Royale All Right Reserved</p></footer>
-        </header>
+        </div>
 
     )
 }
