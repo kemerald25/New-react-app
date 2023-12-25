@@ -1,28 +1,31 @@
 // COMPONENTS
 function Header() {
-    return(
+    return (
         <header>
             <nav>
-                <h3>Dev Royale</h3>
-                <ul>
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+                <div className="navbar">
+                    <h3>Favor Bless Media</h3>
+                    <ul className="list-items">
+                        <a href="">Pricing</a>
+                        <a href="">About</a>
+                        <a href="">Services</a>
+                        <a href="">Contact</a>
+                    </ul>
+                </div>
             </nav>
         </header>
     )
 }
 
 function MainContent() {
-    return(
+    return (
         <div>
             <h3>Why choose React</h3>
-                <ol>
-                    <li>It is fun to work with</li>
-                    <li>Its makes work easier</li>
-                    <li>Coding feels alive</li>
-                </ol>
+            <ol>
+                <li>It is fun to work with</li>
+                <li>Its makes work easier</li>
+                <li>Coding feels alive</li>
+            </ol>
         </div>
     )
 }
