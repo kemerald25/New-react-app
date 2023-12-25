@@ -13,9 +13,9 @@
 
 
 // Use pascal case instad of carmel case for naming react functions
-import Header from './Header'
-import Footer from './Footer'
-import MainContent from './MainContent'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import MainContent from './components/MainContentt'
 
 
 function AllApp() {
