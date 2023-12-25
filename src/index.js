@@ -1,30 +1,77 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+// COMPONENTS
+function Header() {
+    return(
+        <header>
+            <nav>
+                <h3>Dev Royale</h3>
+                <ul>
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+    )
+}
 
+function MainContent() {
+    return(
+        <div>
+            <h3>Why choose React</h3>
+                <ol>
+                    <li>It is fun to work with</li>
+                    <li>Its makes work easier</li>
+                    <li>Coding feels alive</li>
+                </ol>
+        </div>
+    )
+}
 
-import React from 'react';
-
-
-// Use pascal case instad of carmel case for naming react functions
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import MainContent from '../components/MainContent'
-
-
-function App() {
-  return (
-      <div>
-          <Header />
-          <MainContent />
-          <Footer />
-      </div>
-
-  )
+function Footer() {
+    return (
+        <small>@ 2023 Dev Royale All Right Reserved</small>
+    )
 }
 
 
-ReactDOM.render(
-    <App />,
-  document.getElementById('root')
-);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function App() {
+    return (
+        <div>
+            <Header />
+            <MainContent />
+            <Footer />
+        </div>
+
+    )
+}
+ReactDOM.render(<App />, document.getElementById("root"))
